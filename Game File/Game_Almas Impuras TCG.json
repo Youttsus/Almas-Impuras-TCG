@@ -52,19 +52,20 @@
           "Espaço_2",
           "Espaço_3",
           "Espaço_4",
-          "Espaço_5"
+          "Espaço_5",
+          "Card_1",
+          "Card_2",
+          "Card_3",
+          "Card_4",
+          "Card_5"
         ],
         "layout": {
-          "direction": "row",
+          "direction": "column",
           "isSymetricalForOpponents": true,
           "content": [
             {
               "direction": "column",
-              "style": {
-                "width": "93vh",
-                "marginRight": "auto",
-                "marginLeft": "auto"
-              },
+              "style": false,
               "content": [
                 {
                   "direction": "row",
@@ -91,7 +92,34 @@
                       "style": false
                     }
                   ],
-                  "isSymetricalForOpponents": false
+                  "isSymetricalForOpponents": true
+                }
+              ],
+              "isSymetricalForOpponents": true
+            },
+            {
+              "direction": "row",
+              "style": false,
+              "content": [
+                {
+                  "section": "Card_1",
+                  "style": false
+                },
+                {
+                  "section": "Card_2",
+                  "style": false
+                },
+                {
+                  "section": "Card_3",
+                  "style": false
+                },
+                {
+                  "section": "Card_4",
+                  "style": false
+                },
+                {
+                  "section": "Card_5",
+                  "style": false
                 }
               ],
               "isSymetricalForOpponents": false
@@ -172,6 +200,86 @@
           },
           "Espaço_5": {
             "title": "Espaço_5",
+            "isHidden": "no",
+            "height": "MEDIUM",
+            "alignment": "START",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "",
+            "noQuickActions": true,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": true,
+            "showHiddenCardInHistory": false
+          },
+          "Card_1": {
+            "title": "Card_1",
+            "isHidden": "no",
+            "height": "MEDIUM",
+            "alignment": "START",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "",
+            "noQuickActions": true,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": true,
+            "showHiddenCardInHistory": false
+          },
+          "Card_2": {
+            "title": "Card_2",
+            "isHidden": "no",
+            "height": "MEDIUM",
+            "alignment": "START",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "",
+            "noQuickActions": true,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": true,
+            "showHiddenCardInHistory": false
+          },
+          "Card_3": {
+            "title": "Card_3",
+            "isHidden": "no",
+            "height": "SMALL",
+            "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "",
+            "noQuickActions": true,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": true,
+            "showHiddenCardInHistory": false
+          },
+          "Card_4": {
+            "title": "Card_4",
+            "isHidden": "no",
+            "height": "MEDIUM",
+            "alignment": "START",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "",
+            "noQuickActions": true,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": true,
+            "showHiddenCardInHistory": false
+          },
+          "Card_5": {
+            "title": "Card_5",
             "isHidden": "no",
             "height": "MEDIUM",
             "alignment": "START",
