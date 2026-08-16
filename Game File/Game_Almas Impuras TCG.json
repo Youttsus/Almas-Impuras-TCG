@@ -13,13 +13,10 @@
   },
   "deckBuilding": {
     "mainFilters": [
-      "Fogo",
-      "Terra",
-      "Ar",
-      "Água",
-      "Eletricidade",
-      "Trevas",
-      "Luz"
+      "Tipo de Mana",
+      "Custo",
+      "Região",
+      "Água"
     ],
     "formats": [
       {
@@ -52,9 +49,11 @@
       "hideFacedDownCards": false,
       "sections": {
         "customSections": [
-          "Heróis",
-          "Criaturas",
-          "Magias"
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
         ],
         "layout": {
           "direction": "row",
@@ -86,23 +85,89 @@
           "Classic"
         ],
         "autoPlayFromHand": {},
-        "autoPlayFromStack": {},
+        "autoPlayFromStack": {
+          "Magias": "Descarte"
+        },
         "sectionsDict": {
-          "Criaturas": {
-            "title": "Criaturas",
+          "1": {
+            "title": "1",
             "isHidden": "no",
             "height": "MEDIUM",
-            "alignment": "CENTER",
+            "alignment": "START",
             "opponentAlignment": false,
             "noAutoPayTo": false,
             "isHorizontalAllowed": true,
-            "displayedTitle": "Criatura",
+            "displayedTitle": "Criatura/Mag",
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": true,
+            "showHiddenCardInHistory": false,
+            "noQuickActions": false
+          },
+          "2": {
+            "title": "2",
+            "isHidden": "no",
+            "height": "MEDIUM",
+            "alignment": "START",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Criatura/Magia",
+            "noQuickActions": true,
             "enterTapped": false,
             "enterSpun": false,
             "isGroupForbidden": false,
             "keepTappedNewTurn": true,
-            "showHiddenCardInHistory": false,
-            "noQuickActions": true
+            "showHiddenCardInHistory": false
+          },
+          "3": {
+            "title": "3",
+            "isHidden": "no",
+            "height": "MEDIUM",
+            "alignment": "START",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Criatura/Magia",
+            "noQuickActions": true,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": true,
+            "showHiddenCardInHistory": false
+          },
+          "4": {
+            "title": "4",
+            "isHidden": "no",
+            "height": "MEDIUM",
+            "alignment": "START",
+            "opponentAlignment": "false",
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "",
+            "noQuickActions": true,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": true,
+            "showHiddenCardInHistory": false
+          },
+          "5": {
+            "title": "5",
+            "isHidden": "no",
+            "height": "MEDIUM",
+            "alignment": "START",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "",
+            "noQuickActions": true,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": true,
+            "showHiddenCardInHistory": false
           }
         }
       }
