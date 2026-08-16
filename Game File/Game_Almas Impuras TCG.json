@@ -32,65 +32,67 @@
   "gameplay": {
     "Classic": {
       "mulligan": {
-        "info": "ESCOLHA AS CARTAS PARA SUBSTITUIR",
+        "info": "",
         "startingHandSize": "4",
-        "drawNewHand": true,
+        "drawNewHand": false,
         "putSelectionAtBottom": false,
-        "drawNewSelectedCards": true
+        "drawNewSelectedCards": false
       },
       "newTurn": {
-        "drawOnStart": true,
+        "drawOnStart": false,
         "sharedTurn": false,
-        "firstPlayerTokenName": "Primordial",
+        "firstPlayerTokenName": "",
         "drawPerTurn": 1
       },
-      "defaultNotes": "BOA SORTE!",
-      "tokens": [
-        {
-          "name": "Primordial",
-          "image": "https://www.flaticon.com/br/icone-gratis/runa_336182",
-          "isUnique": true,
-          "leavesAtEndOfTurn": true
-        }
-      ],
+      "defaultNotes": "",
+      "tokens": [],
       "countersStartingValues": [
-        "1"
+        "20"
       ],
       "hideFacedDownCards": false,
       "sections": {
         "customSections": [
-          "Mana"
+          "Heróis",
+          "Criaturas",
+          "Magias"
         ],
         "layout": {
           "direction": "row",
-          "isSymetricalForOpponents": false,
-          "content": []
+          "isSymetricalForOpponents": true,
+          "content": [
+            {
+              "direction": "column",
+              "style": "",
+              "content": [],
+              "isSymetricalForOpponents": true
+            },
+            {
+              "section": "Criaturas",
+              "style": false
+            }
+          ]
         },
         "categoriesAlreadyOnBoard": [
           "Classic"
         ],
-        "autoPlayFromHand": {
-          "ae14af06-1eed-4ff9-aa1d-433bc8934164": "Classic"
-        },
-        "autoPlayFromStack": {
-          "1492b859-b8ea-41b7-b5be-6fc8b4ac0464": "Classic"
-        },
+        "autoPlayFromHand": {},
+        "autoPlayFromStack": {},
         "sectionsDict": {
-          "Mana": {
-            "title": "Mana",
+          "Criaturas": {
+            "title": "Criaturas",
             "isHidden": "no",
-            "height": "SMALL",
-            "alignment": "START",
+            "height": "MEDIUM",
+            "alignment": "CENTER",
             "opponentAlignment": false,
-            "noAutoPayTo": "true",
-            "isHorizontalAllowed": false,
-            "displayedTitle": "Ressources",
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Criatura",
             "enterTapped": false,
             "enterSpun": false,
             "isGroupForbidden": false,
             "keepTappedNewTurn": true,
-            "showHiddenCardInHistory": true,
-            "noQuickActions": false
+            "showHiddenCardInHistory": false,
+            "noQuickActions": true
           }
         }
       }
