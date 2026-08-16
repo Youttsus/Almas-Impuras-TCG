@@ -6,7 +6,7 @@
     "decksUrl": ""
   },
   "customHelp": "Almas Impuras TCG",
-  "cardRotation": 45,
+  "cardRotation": "90",
   "cards": {
     "dataUrl": "https://youttsus.github.io/Almas-Impuras-TCG/Game File/CardList.json",
     "cardBack": "https://youttsus.github.io/Almas-Impuras-TCG/IMG/Fundo de Carta.jpg"
@@ -49,35 +49,53 @@
       "hideFacedDownCards": false,
       "sections": {
         "customSections": [
-          "1",
-          "2",
-          "3",
-          "4",
-          "5"
+          "Espaço_1",
+          "Espaço_2",
+          "Espaço_3",
+          "Espaço_4",
+          "Espaço_5"
         ],
         "layout": {
           "direction": "row",
           "isSymetricalForOpponents": true,
           "content": [
             {
-              "section": "1",
-              "style": false
-            },
-            {
-              "section": "2",
-              "style": false
-            },
-            {
-              "section": "3",
-              "style": false
-            },
-            {
-              "section": "4",
-              "style": false
-            },
-            {
-              "section": "5",
-              "style": false
+              "direction": "column",
+              "style": {
+                "width": "93vh",
+                "marginRight": "auto",
+                "marginLeft": "auto"
+              },
+              "content": [
+                {
+                  "direction": "row",
+                  "style": false,
+                  "content": [
+                    {
+                      "section": "Espaço_1",
+                      "style": false
+                    },
+                    {
+                      "section": "Espaço_2",
+                      "style": false
+                    },
+                    {
+                      "section": "Espaço_3",
+                      "style": false
+                    },
+                    {
+                      "section": "Espaço_4",
+                      "style": false
+                    },
+                    {
+                      "section": "Espaço_5",
+                      "style": false
+                    }
+                  ],
+                  "isSymetricalForOpponents": false
+                }
+              ],
+              "isSymetricalForOpponents": false
             }
           ]
         },
@@ -86,11 +104,11 @@
         ],
         "autoPlayFromHand": {},
         "autoPlayFromStack": {
-          "Magias": "Descarte"
+          "Magia": "Discard"
         },
         "sectionsDict": {
-          "1": {
-            "title": "1",
+          "Espaço_1": {
+            "title": "Espaço_1",
             "isHidden": "no",
             "height": "MEDIUM",
             "alignment": "START",
@@ -105,8 +123,8 @@
             "showHiddenCardInHistory": false,
             "noQuickActions": false
           },
-          "2": {
-            "title": "2",
+          "Espaço_2": {
+            "title": "Espaço_2",
             "isHidden": "no",
             "height": "MEDIUM",
             "alignment": "START",
@@ -121,8 +139,8 @@
             "keepTappedNewTurn": true,
             "showHiddenCardInHistory": false
           },
-          "3": {
-            "title": "3",
+          "Espaço_3": {
+            "title": "Espaço_3",
             "isHidden": "no",
             "height": "MEDIUM",
             "alignment": "START",
@@ -137,8 +155,8 @@
             "keepTappedNewTurn": true,
             "showHiddenCardInHistory": false
           },
-          "4": {
-            "title": "4",
+          "Espaço_4": {
+            "title": "Espaço_4",
             "isHidden": "no",
             "height": "MEDIUM",
             "alignment": "START",
@@ -153,8 +171,8 @@
             "keepTappedNewTurn": true,
             "showHiddenCardInHistory": false
           },
-          "5": {
-            "title": "5",
+          "Espaço_5": {
+            "title": "Espaço_5",
             "isHidden": "no",
             "height": "MEDIUM",
             "alignment": "START",
