@@ -61,6 +61,7 @@
         ],
         "layout": {
           "direction": "column",
+           "width": "93vh",
           "isSymetricalForOpponents": true,
           "content": [
             {
@@ -74,22 +75,27 @@
                     {
                       "section": "Espaço_1",
                       "style": false
+                       "marginRight": "4vh"
                     },
                     {
                       "section": "Espaço_2",
                       "style": false
+                       "marginRight": "4vh"
                     },
                     {
                       "section": "Espaço_3",
                       "style": false
+                       "marginRight": "4vh"
                     },
                     {
                       "section": "Espaço_4",
                       "style": false
+                       "marginRight": "4vh"
                     },
                     {
                       "section": "Espaço_5",
                       "style": false
+                       "marginRight": "4vh"
                     }
                   ],
                   "isSymetricalForOpponents": true
@@ -100,26 +106,32 @@
             {
               "direction": "row",
               "style": false,
+                "width": "93vh",
               "content": [
                 {
                   "section": "Card_1",
                   "style": false
+                   "marginRight": "4vh"
                 },
                 {
                   "section": "Card_2",
                   "style": false
+                   "marginRight": "4vh"
                 },
                 {
                   "section": "Card_3",
                   "style": false
+                   "marginRight": "4vh"
                 },
                 {
                   "section": "Card_4",
                   "style": false
+                   "marginRight": "4vh"
                 },
                 {
                   "section": "Card_5",
                   "style": false
+                   "marginRight": "4vh"
                 }
               ],
               "isSymetricalForOpponents": false
