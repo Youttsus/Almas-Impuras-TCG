@@ -61,13 +61,23 @@
           "isSymetricalForOpponents": true,
           "content": [
             {
-              "direction": "column",
-              "style": "",
-              "content": [],
-              "isSymetricalForOpponents": true
+              "section": "1",
+              "style": false
             },
             {
-              "section": "Criaturas",
+              "section": "2",
+              "style": false
+            },
+            {
+              "section": "3",
+              "style": false
+            },
+            {
+              "section": "4",
+              "style": false
+            },
+            {
+              "section": "5",
               "style": false
             }
           ]
