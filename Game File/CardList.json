@@ -5,7 +5,7 @@
     "face": {
       "front": {
         "name": "Duelo",
-        "type": "Neutro",
+        "type": "false",
         "cost": "3",
         "image": "https://plain-enam-prod-public.komododecks.com/202608/16/nImOu9yldKxCU7IyeDn6/image.jpg",
         "isHorizontal": false
@@ -21,13 +21,30 @@
     "face": {
       "front": {
         "name": "Golpe Rápido",
-        "type": "Neutro",
+        "type": "false",
         "cost": "3",
         "image": "http://youttsus.github.io/Almas-Impuras-TCG/IMG/Golpe%20R%C3%A1pido.jpeg",
         "isHorizontal": false
       }
     },
     "name": "Golpe Rápido",
+    "type": false,
+    "cost": 0,
+    "Furtivo": ""
+  },
+  "3": {
+    "id": "3",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Ronin",
+        "type": false,
+        "cost": "3",
+        "image": "http://youttsus.github.io/Almas-Impuras-TCG/IMG/Ronin.jpeg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Ronin",
     "type": false,
     "cost": 0,
     "Furtivo": ""
