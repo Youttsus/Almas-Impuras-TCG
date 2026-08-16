@@ -5,11 +5,11 @@
     "backgrounds": [],
     "decksUrl": ""
   },
-  "customHelp": "",
+  "customHelp": "Almas Impuras TCG",
   "cardRotation": 45,
   "cards": {
-    "dataUrl": "",
-    "cardBack": ""
+    "dataUrl": "https://youttsus.github.io/Almas-Impuras-TCG/Game File/CardList.json",
+    "cardBack": "https://youttsus.github.io/Almas-Impuras-TCG/IMG/Fundo de Carta.jpg"
   },
   "deckBuilding": {
     "mainFilters": [
